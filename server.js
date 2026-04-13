@@ -9,6 +9,9 @@ const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 
+// Trust Railway's reverse proxy so express-rate-limit can read the real client IP
+app.set('trust proxy', 1);
+
 /* Ensure upload directory exists on startup */
 const uploadsDir = path.join(__dirname, 'uploads', 'images');
 if (!fs.existsSync(uploadsDir)) {

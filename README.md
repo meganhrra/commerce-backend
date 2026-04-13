@@ -64,6 +64,7 @@ Antes de ejecutar el proyecto asegúrate de tener instalado y disponible lo sigu
 | **Node.js** | 18.x | `node --version` para verificar |
 | **npm** | 8.x (incluido con Node 18) | — |
 | **MySQL** | 8.x | Debe estar en ejecución localmente o en un servidor accesible |
+| **VS Code** | Última versión | Editor de código recomendado ([descargar](https://code.visualstudio.com/)) |
 | **Frontend** | — | Ver sección [Frontend requerido](#frontend-requerido) |
 
 > **Opcional:** `nodemon` se instala como dependencia de desarrollo; no es necesario instalarlo globalmente.
